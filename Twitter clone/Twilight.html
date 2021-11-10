@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="Twilight.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", inital scale="1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Twilight</title>
+
+        <!-- feed area -->
+
+    </head>
+    <header>
+        <div id="title">
+        <h1>Twilight</h1>
+    </header>
+    <section class="Feed">
+    <section class="newsfeed">
+    </div>
+    <body>
+        
+
+        <div class="profile-table">
+            
+            <table>
+                <div class="profile-circle"></div>
+                <h2>Spike Spiegel</h2>
+                <p>City, ST, Country</p>
+                <h2>1</h2>
+                <h3>posts</h3>
+                <h2>1</h2>
+                <h3>Followers</h3>
+                <h2>1</h2>
+                <h3>following</h3>
+                    <hr>
+                <h2>Feed</h2>
+                <h2>Explore</h2>
+                <h2>My Favorites</h2>
+                <h2>Direct</h2>
+                <h2>Stats</h2>
+                <h2>Settings</h2>
+                <button type="button" class="btn-Logout" id="btn-Logout"><h2>Logout</h2></button>
+                    <hr>
+                <h2>Contacts</h2>
+                <div class="pfp1"></div>
+                <h3>Faye Valentine</h3>
+                <P>City, ST, US</P>
+                <div class="pfp2"></div>
+                <h3>Jet Black</h3>
+                <p>City, ST, US</p>
+                <div class="pfp3"></div>
+                <h3>Bob</h3>
+                <p>City, ST, US</p>
+
+            </table>
+        </div>
+        <div class="new-post">
+            <textarea id="new-post-text" placeholder="type something..." maxlength="240">
+            </textarea>
+            <button type="button" id="post-btn" aria-label="post new button">Post</button>
+        </div>
+
+        <div class="card">
+            <section class="card__title">
+                <div class="profile-circle"></div>
+                <div class="card__title--name">
+                    <h4 class="card__title--full-name">Jane Doe</h4>
+                    <p class="card__title--username">@janedoe64</p>
+                </div>
+                <div class="post-date">4 hours ago</div>
+            </section>
+            <section class="card__body">
+                <p>This is placeholder text</p>
+            </section>
+            <section class="card__footer">
+                <span class="like-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#f5f5f5"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/>Likes</svg> 4</span>
+                <span class="comment-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#f5f5f5"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 17.17L18.83 16H4V4h16v13.17zM20 2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4V4c0-1.1-.9-2-2-2z"/>Comments</svg>4</span>
+                <fieldset class="post-btn-group">
+                    <button type="button" class="edit-btn">edit</button>
+                    <button type="button" class="delete-btn">delete</button>
+                </fieldset>
+                
+            </section>                       
+        </div>
+
+        <div class="card">
+            <section class="card__title">
+                <div class="profile-circle"></div>
+                <div class="card__title--name">
+                    <h4 class="card__title--full-name">Jane Doe</h4>
+                    <p class="card__title--username">@janedoe64</p>
+                </div>
+                <div class="post-date">4 hours ago</div>
+            </section>
+            <section class="card__body">
+                <p>This is placeholder text</p>
+            </section>
+            <section class="card__footer">
+                <span class="like-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#f5f5f5"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/>Likes</svg> 4</span>
+                <span class="comment-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#f5f5f5"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 17.17L18.83 16H4V4h16v13.17zM20 2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4V4c0-1.1-.9-2-2-2z"/>Comments</svg>4</span>
+                
+            </section>                       
+        </div>
+
+</section>
+</section>
+
+        <!-- Log in Area-->
+
+        <!--div class="login-section card">
+            <form class="login-form">
+                <label for="username">Username:</label>
+                <input type="text" name="username">
+
+                <label for="password">Password:</label>
+                <input type="password" name="password">
+
+                <button type="button" id="login-btn">Login</button>
+            </form>
+        </div-->
+
+        <section class="log-in-Page">
+        <main>
+        <div id="main-txt">
+        <h1>Welcome Back!</h1>
+        </div>
+        <div class="log-in-form">
+        <form>
+            <h3>Username*</h3>
+            <input id="username" class="input" placeholder="Username*" >
+            <p>Must be between 3 and 24 characters</p>
+            
+            <h3>Email-Address*</h3>
+            <input id="email" class="input" placeholder="Email-Address*">
+            <p>We'll never share your email with anyone else.</p>
+            
+            <button type="button" id="btn-Login" class="btn-Login">Log-in</button>
+        </form>
+        </div>
+        <div id="img">
+            <img src="assets/pfps/TwilightBackground.jpg" alt="img">
+        </div>
+        </main>
+        </section>
+
+        <!-- Main page Area
+
+        <section id="Main-Page">
+        <main> 
+            <h2>Twilight</h2>   
+        <div id="main-txt">
+            <h1>How to spend an evening</h1>       
+            <h2>Enjoy your twilight with others!</h2>
+        </div>
+        <div id="redirection-buttons">
+            <button type="button" class="button-signup-main">Sign Up</button>
+            <button type="button" class="button-login-main">Log in</button></a> 
+        </div>
+        <div id="image">
+        <img src="assets/pfps/TwilightBackground.jpg" alt="img">
+        </div>
+        </main> 
+        </section>
+        -->
+        <!-- Sign up Area 
+
+        <section id="Sign-Up-page">
+        <main>
+            <h2>Twilight</h2>
+        <div id="main-txt">
+            <h1>join twilight today!</h1>
+        </div>
+        <div class="sign-up-form">
+        <form>
+            <h3>First name*</h3>
+            <input id="first-name" class="input" placeholder="First Name*">
+            <h3>Last name*</h3>
+            <input id="last-name" class="input" placeholder="Last Name*">
+            <h3>Username*</h3>
+            <input id="username" class="input" placeholder="Username*">
+            <p>must be between 3 and 24 characters</p>
+            <h3>Email Address*</h3>
+            <input id="email-address" class="input" placeholder="Email Address*">
+            <p>We'll never share your email with anyone else</p>
+        </form>
+        </div>
+        <div id="button-signup-page">
+            <button type="button" class="button-signup-page">Sign up</button></a>
+        </div>
+        <div id="img">
+            <img src="TwilightBackground.jpg">
+        </div>
+        </main>
+        </section>
+        -->
+
+        <!-- tail end info -->
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script type="module" src="Main.js"></script>
+    </body>
+</html>
